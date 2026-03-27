@@ -1,7 +1,7 @@
 {
   "name": "social-downloader-backend",
   "version": "1.0.0",
-  "description": "API to download videos from social media",
+  "description": "API to download videos from social media using yt-dlp",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -9,7 +9,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
-    "trs-media-downloader": "latest"
+    "yt-dlp-exec": "^3.0.0"
   },
   "engines": {
     "node": ">=16.0.0"
